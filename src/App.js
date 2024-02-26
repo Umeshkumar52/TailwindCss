@@ -10,6 +10,8 @@ import PwSkillsblog from "./pages/pwSkillsBlog/PwSkillsblog";
 import ReadBlog from "./pages/pwSkillsBlog/ReadBlog";
 import MoviSearch from "./pages/moviSearchApp/MoviSearch";
 import Todo from "./pages/todoApp/Todo";
+import GallaryHome from "./pages/GallaryApp/GallaryHome";
+import BirdDescription from "./pages/GallaryApp/BirdDescription";
 function App() {
   return (
     <BrowserRouter>
@@ -24,6 +26,9 @@ function App() {
          <Route path='assignment5' element={<ReactWalkThroughP_3/>}/>
          <Route path='assignment3' element={<ReactWalkThrough/>}/>
          <Route path='assignment2' element={<MilestoneExam/>}/>
+         <Route path='gallary' element={<GallaryHome/>}/>
+         <Route path='description' element={<BirdDescription/>}/>
+
       </Routes>
    </BrowserRouter>
   );
